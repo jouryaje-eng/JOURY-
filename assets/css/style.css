@@ -1,0 +1,116 @@
+
+/* General */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #f8faf9;
+}
+
+/* Navbar */
+.navbar {
+    padding: 12px 0;
+}
+
+.navbar-logo {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.site-name {
+    color: #087a54;
+    font-size: 22px;
+}
+
+.nav-link {
+    color: #086c68;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #8bcb55;
+}
+
+.btn-register {
+    background-color: #159b65;
+    color: white;
+    border: none;
+}
+
+.btn-register:hover {
+    background-color: #087a54;
+    color: white;
+}
+
+.btn-logout {
+    background-color: #087a54;
+    color: white;
+    border: none;
+}
+
+.btn-logout:hover {
+    background-color: #159b65;
+    color: white;
+}
+
+/* Main */
+main {
+    flex-grow: 1;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #086c68;
+    color: white;
+    margin-top: auto;
+}
+
+.footer-title {
+    color: #8bcb55;
+    font-weight: bold;
+}
+
+.footer-description {
+    color: #e0f2eb;
+    font-size: 14px;
+}
+
+.copyright {
+    color: #c5e4d8;
+    font-size: 13px;
+}
+
+
+
+/* Home Page */
+.text-brand {
+    color: #087a54;
+}
+
+.text-brand-light {
+    color: #159b65;
+}
+
+.brand-icon {
+    color: #159b65;
+}
+
+
+/* Student Profile Picture */
+.student-picture {
+    object-fit: cover;
+}
+
+/* Add Student Form */
+
+#addStudentForm .form-control:focus {
+    border-color: #159b65;
+    box-shadow: 0 0 0 0.2rem rgba(21, 155, 101, 0.15);
+}
+
+#addStudentForm textarea {
+    resize: vertical;
+}
